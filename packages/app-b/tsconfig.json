@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.app.json",
+  "include": ["./src", "../core/lib"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "@3gc/core/*": ["../../core/*"]
+    }
+  }
+}

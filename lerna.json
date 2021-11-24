@@ -1,0 +1,10 @@
+{
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "yarn",
+  "command": {
+    "version": {
+      "conventionalCommits": true
+    }
+  }
+}

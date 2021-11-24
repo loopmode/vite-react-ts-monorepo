@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@project/core",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf lib && rm -f *.tsbuildinfo"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
